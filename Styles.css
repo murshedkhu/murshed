@@ -1,0 +1,85 @@
+/* start selector */
+*{
+  margin: 0;
+}
+
+
+/* Element Selectors */
+
+
+body{
+  background: rgb(255,255,255);
+}
+
+h1{
+  color: Blue;
+}
+
+/* ID Selectors */
+#TopDiv1{
+background: #547865;
+height: 100px;
+}
+#TopDiv2{
+  background: #FF7865;
+
+}
+#MidDiv1{
+  background: #54FF65;
+
+}
+
+#BottomDiv1{
+  background: #5411F5;
+
+}
+#BottomDiv2{
+  background: #FFF865;
+
+}
+
+
+
+
+/* Attribute selectors */
+
+input[type="submit"]{
+  color: white;
+  background: navy;
+}
+
+
+/*Descendant selector*/
+div h2 {
+  color: Green;
+}
+
+
+/*Sibling selectors*/
+h2 ~ ol {text-transform: uppercase;}
+
+
+
+/*Adjacent selectors*/
+h2+p{
+  text-decoration: underline;
+}
+
+/*nth-of-type selectors*/
+div:nth-of-type(odd) {
+  background: Turquoise;
+  padding: 20px 30px 10px 30px;
+}
+div:nth-of-type(even) {
+  background: LightSkyBlue;
+  padding: 20px 30px 10px 30px;
+}
+
+/*nth-child selector*/
+
+p:nth-child(2) {
+  color: rgb(100,255,255);
+}
+p:nth-child(4) {
+  color: steelblue;
+}
